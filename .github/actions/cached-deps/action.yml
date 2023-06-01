@@ -10,6 +10,7 @@ outputs:
   used-cache:
     description: 'Wheter when cache was used'
     value: ${{ steps.instalacion.outputs.set-cache }}
+
 runs:
   using: 'composite'
   steps:
