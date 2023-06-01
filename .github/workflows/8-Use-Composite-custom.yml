@@ -6,10 +6,5 @@ on:
   workflow_dispatch:
 jobs:
   deploy:
-    # uses: ./.github/workflows/8-Reusable.yml
     uses: sebasnaa/tmp-presentacion/.github/workflows/9-Own-actions.yml@master
-    with:
-      artifact-name: dist-files
-    # secrets:
-    #   some-secret: ${{secrets.some-secret}}
  
