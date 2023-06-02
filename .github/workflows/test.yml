@@ -3,7 +3,7 @@ on:
     workflow_dispatch:
 jobs:
   build:
-    runs-on: runner001
+    runs-on: [self-hosted , ARM64]
     steps:
       - name: Hello world action step
         run: echo Hello world!  
