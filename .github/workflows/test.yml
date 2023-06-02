@@ -1,10 +1,9 @@
 name: "Hello World"
 on:
     workflow_dispatch:
-
 jobs:
   build:
-    runs-on: self-hosted
+    runs-on: runner001
     steps:
       - name: Hello world action step
-        run: echo Hello world!
+        run: echo Hello world!  
